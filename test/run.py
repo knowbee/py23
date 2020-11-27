@@ -1,3 +1,4 @@
+import os
 def greet(name):
     print("Hello, {0}!".format(name))
 
@@ -6,9 +7,11 @@ greet(name)
 
 try:
     print("test")
-except    NameError as  err:
+except     NameError as  err:
     print(err, '--> our error message')
 
 raise  IOError( "file error")
 
 key in dict
+
+ os.getcwd()
