@@ -1,6 +1,6 @@
 {
   "name": "py23",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "description": "py23 is a cli tool program that reads Python 2.x source code and applies a series of conversions to transform it into valid Python 3.x code.",
   "license": "MIT",
@@ -11,6 +11,14 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "author": "Igwaneza Bruce <knowbeeinc@gmail.com>",
+  "keywords": [
+    "python2 to python3",
+    "python2.x to python3.x",
+    "convert python2 to python3",
+    "convert python 2 to python 3",
+    "python 2",
+    "python 3"
+  ],
   "bugs": {
     "url": "https://github.com/knowbee/py23/issues"
   },
