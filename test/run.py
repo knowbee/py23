@@ -6,5 +6,7 @@ greet(name)
 
 try:
     print("test")
-except NameError, err:
-    print err, '--> our error message'
+except  NameError as  err:
+    print(err, '--> our error message')
+
+raise  IOError( "file error")
