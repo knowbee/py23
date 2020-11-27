@@ -1,0 +1,28 @@
+{
+  "name": "py23",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "py23": "index.js"
+  },
+  "scripts": {
+    "test": "node index --path ./test"
+  },
+  "author": "Igwaneza Bruce <knowbeeinc@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/knowbee/py23/issues"
+  },
+  "homepage": "https://github.com/knowbee/py23#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knowbee/py23.git"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "commander": "^6.2.0",
+    "figlet": "^1.5.0",
+    "ora": "^5.1.0"
+  }
+}
