@@ -3,3 +3,8 @@ def greet(name):
 print("What's your name?")
 name = input()
 greet(name)
+
+try:
+    print("test")
+except NameError, err:
+    print err, '--> our error message'
