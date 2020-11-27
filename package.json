@@ -2,6 +2,7 @@
   "name": "py23",
   "version": "0.0.1",
   "main": "index.js",
+  "description": "py23 is a cli tool program that reads Python 2.x source code and applies a series of conversions to transform it into valid Python 3.x code.",
   "license": "MIT",
   "bin": {
     "py23": "index.js"
