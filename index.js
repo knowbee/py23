@@ -6,7 +6,7 @@ const clear = require("clear");
 const chalk = require("chalk");
 const figlet = require("figlet");
 const spinner = require("ora")();
-// clear();
+clear();
 console.log(
   chalk.magenta(figlet.textSync("py23", { horizontalLayout: "full" }))
 );
